@@ -11,6 +11,12 @@
 		4089210D2871F5BF0030E239 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4089210C2871F5BF0030E239 /* ContentView.swift */; };
 		4089210F2871F5C00030E239 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4089210E2871F5C00030E239 /* Assets.xcassets */; };
 		408921122871F5C00030E239 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 408921112871F5C00030E239 /* Preview Assets.xcassets */; };
+		4089211A2871F6830030E239 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408921192871F6830030E239 /* Server.swift */; };
+		4089211C2871F77D0030E239 /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4089211B2871F77D0030E239 /* FileManager-DocumentsDirectory.swift */; };
+		4089211E2871F82D0030E239 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4089211D2871F82D0030E239 /* ViewModel.swift */; };
+		408921202871FAB10030E239 /* ServerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4089211F2871FAB10030E239 /* ServerRow.swift */; };
+		408921222871FE3D0030E239 /* AddServerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408921212871FE3D0030E239 /* AddServerView.swift */; };
+		4089212528720CD00030E239 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4089212428720CD00030E239 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		4089210E2871F5C00030E239 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		408921112871F5C00030E239 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		408921132871F5C00030E239 /* PingPong.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PingPong.entitlements; sourceTree = "<group>"; };
+		408921192871F6830030E239 /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		4089211B2871F77D0030E239 /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
+		4089211D2871F82D0030E239 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		4089211F2871FAB10030E239 /* ServerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerRow.swift; sourceTree = "<group>"; };
+		408921212871FE3D0030E239 /* AddServerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddServerView.swift; sourceTree = "<group>"; };
+		4089212428720CD00030E239 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = PingPong/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +64,11 @@
 		408921092871F5BF0030E239 /* PingPong */ = {
 			isa = PBXGroup;
 			children = (
+				4089212428720CD00030E239 /* AppDelegate.swift */,
+				4089211D2871F82D0030E239 /* ViewModel.swift */,
+				4089211B2871F77D0030E239 /* FileManager-DocumentsDirectory.swift */,
 				4089210A2871F5BF0030E239 /* PingPongApp.swift */,
-				4089210C2871F5BF0030E239 /* ContentView.swift */,
+				40892123287206E90030E239 /* Views */,
 				4089210E2871F5C00030E239 /* Assets.xcassets */,
 				408921132871F5C00030E239 /* PingPong.entitlements */,
 				408921102871F5C00030E239 /* Preview Content */,
@@ -67,6 +82,17 @@
 				408921112871F5C00030E239 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		40892123287206E90030E239 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4089210C2871F5BF0030E239 /* ContentView.swift */,
+				408921212871FE3D0030E239 /* AddServerView.swift */,
+				4089211F2871FAB10030E239 /* ServerRow.swift */,
+				408921192871F6830030E239 /* Server.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +165,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4089212528720CD00030E239 /* AppDelegate.swift in Sources */,
+				408921222871FE3D0030E239 /* AddServerView.swift in Sources */,
+				4089211E2871F82D0030E239 /* ViewModel.swift in Sources */,
 				4089210D2871F5BF0030E239 /* ContentView.swift in Sources */,
+				4089211A2871F6830030E239 /* Server.swift in Sources */,
+				408921202871FAB10030E239 /* ServerRow.swift in Sources */,
+				4089211C2871F77D0030E239 /* FileManager-DocumentsDirectory.swift in Sources */,
 				4089210B2871F5BF0030E239 /* PingPongApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
